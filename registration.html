@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, intialscale=1">
+  <meta name="description" content="">
+  <title>skillaksh</title>
+  <!--css link-->
+  <link rel="stylesheet" a href="assets/index.css">
+  <link rel="stylesheet" a href="assets\registration.css">
+</head>
+<!--header area start-->
+
+<body>
+  <div class="header">
+    <a href="#default" class="logo">CompanyLogo</a>
+    <div class="header-right">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="service1.html">Services</a>
+
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+      <a href="registration.html">Register</a>
+    </div>
+  </div>
+
+  <section class="benner-area black-bg">
+    <div class="banner text-center d-flex align-items-center justify-content-center">
+      <div class="banner-content">
+        <img src="assets/img/registration.png" width="1325px" height="250px">
+      </div>
+    </div>
+  </section>
+
+  <div class="register">
+    <h2 style="text-align:center">Registration Form</h2>
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Middle Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <div class="container">
+          <label for="fname"> Phone Number</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="fname">Alternative Number</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+        <label for="fname"> Email ID</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="fname">Password</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="fname">Confirm Password</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    </div>
+
+    <div class="container">
+      <h3>Area of Your Interest</h3>
+      <form>
+        <p>Add your veggies:</p>
+        <input type="checkbox" name="veggies" id="veg1" value="tomato" onclick="return       ValidateSelection();">
+        <label for="veg1">Tomato</label>
+        <input form="myForm" type="checkbox" name="veggies" id="veg2" value="onion"
+          onclick="return ValidateSelection();">
+        <label for="veg2">Onion</label>
+        <input form="myForm" type="checkbox" name="veggies" id="veg3" value="lettuce"
+          onclick="return ValidateSelection();">
+        <label for="veg3">Lettuce</label>
+        <input type="checkbox" name="veggies" id="veg4" value="capsicum" disabled>
+        <label for="veg4">Capsicum</label>
+
+        <p>Add your veggies:</p>
+        <input type="checkbox" name="veggies" id="veg1" value="tomato" onclick="return       ValidateSelection();">
+        <label for="veg1">Tomato</label>
+        <input form="myForm" type="checkbox" name="veggies" id="veg2" value="onion"
+          onclick="return ValidateSelection();">
+        <label for="veg2">Onion</label>
+        <input form="myForm" type="checkbox" name="veggies" id="veg3" value="lettuce"
+          onclick="return ValidateSelection();">
+        <label for="veg3">Lettuce</label>
+        <input type="checkbox" name="veggies" id="veg4" value="capsicum" disabled>
+        <label for="veg4">Capsicum</label>
+
+      </form>
+
+      <!--<p><input type="submit" value="Submit"></p>-->
+
+      <script type="text/javascript">
+        function ValidateSelection() {
+          var check_box = document.getElementsByName("veggies");
+          var CheckedItems = 0;
+          for (var i = 0; i < check_box.length; i++) {
+            if (check_box[i].checked)
+              CheckedItems++;
+          }
+          if (CheckedItems > 2) {
+            alert("You can't select more than three veggies!");
+            return false;
+          }
+        }  
+      </script>
+      <div class="radio button">
+        <h3>Gender</h3>
+
+        <form action="/action_page.php">
+          <p>Please select your Gender:</p>
+            <input type="radio" id="html" name="fav_language" value="MALE">
+            <label for="html">Male</label><br>
+            <input type="radio" id="css" name="fav_language" value="FEMALE">
+            <label for="css">Female</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="UNISEX">
+            <label for="javascript">Unisex</label>
+
+          <br>
+          <h3>ADDRESS</h3>
+
+          <p><label for="w3review">Techbitz</label></p>
+          
+          <textarea id="w3review" name="w3review" rows="8" cols="100">
+            733 Jaladhama, opp. Water Tank,
+             Bogadi 2nd Stage, Mysuru,
+              Karnataka 570026
+          </textarea>
+
+
+          <p><input type="submit" value="Registration"></p>
+
+          <script src="assets\index.js">
+          </script>
+</body>
+
+</html>

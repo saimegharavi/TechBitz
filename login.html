@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intialscale=1">
+    <meta name="description" content="">
+    <title>skillaksh</title>
+    <!--css link-->
+    <link rel="stylesheet" a href="assets/index.css">
+    <link rel="stylesheet" a href="assets/login.css">
+</head>
+<!--header area start-->
+
+<body>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+
+    <div class="header">
+        <a href="#default" class="logo">CompanyLogo</a>
+        <div class="header-right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service1.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="registration.html">Register</a>
+        </div>
+    </div>
+
+    <section class="benner-area black-bg">
+        <div class="banner text-center d-flex align-items-center justify-content-center">
+            <div class="banner-content">
+                <img src="assets/img/Login1.png" width="1325px" height="250px">
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="mycontact">
+        <h2 style="text-align: center;">Login</h2>
+    </div>
+    <br>
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+            <img src="assets/img/login.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+
+
+
+
+    <script src="assets\index.js">
+    </script>
+</body>
+
+</html>

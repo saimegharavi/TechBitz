@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intialscale=1">
+    <meta name="description" content="">
+    <title>skillaksh</title>
+    <!--css link-->
+    <link rel="stylesheet" a href="assets/index.css">
+    <link rel="stylesheet" a href="assets/registration.css">
+    <link rel="stylesheet" a href="assets/login.css">
+    <link rel="stylesheet" a href="testimonial.css">
+    <link rel="stylesheet" a href="footer.css">
+</head>
+<!--header area start-->
+
+<body>
+    <div class="header">
+        <a href="#default" class="logo">CompanyLogo</a>
+        <div class="header-right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service1.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="registration.html">Register</a>
+        </div>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="assets/img/company.png" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UZyuBMncHqE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen style="width: 100%"></iframe>
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="assets/img/mountain.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="assets/img/registration.png" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UZyuBMncHqE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen style="width: 100%"></iframe>
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+
+    </div>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 23.33%;
+            padding: 2px;
+        }
+    </style>
+    <div class="row">
+        <div class="column">
+            <h1>About US</h1>
+            <img src="assets/img/About.png" alt="Snow" style="width:500px" height="300px">
+        </div>
+        <div class="column">
+            <h1> About the company</h1>
+            <p>Emphasize the name and address of the business. Tell the reader how it started and what products or
+                services it offers. Stress the benefits of using the products or services. If there is an opening event,
+                invite the recipient to attend.</p>
+        </div>
+
+    </div>
+
+
+    <!--Meet our team-->
+
+    <h2 style="text-align: center">MEET OUR TEAM</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/Avatar3png.jpg" alt="Jane" style="width:50%">
+                <div class="container">
+                    <h2>Jane Doe</h2>
+                    <p class="title">CEO &amp; Founder</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/Avatar1.png" alt="Mike" style="width:50%">
+                <div class="container">
+                    <h2>Mike Ross</h2>
+                    <p class="title">Art Director</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/Avatar3png.jpg" alt="John" style="width:50%">
+                <div class="container">
+                    <h2>John Doe</h2>
+                    <p class="title">Designer</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Testimonial-->
+
+    <!--Testimonial-->
+
+    <h2>Responsive Testimonials</h2>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="row">
+      <div class="container">
+        <img src="assets/img/Avatar1.png" alt="Avatar" style="width:90px">
+        <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+        <p>John Doe saved us from a web disaster.</p>
+      </div>
+
+      <div class="container">
+        <img src="assets/img/Avatar3png.jpg" alt="Avatar" style="width:90px">
+        <p><span>Rebecca Flex.</span> CEO at Company.</p>
+        <p>No one is better than John Doe.</p>
+      </div>
+      <div class="container">
+        <img src="assets/img/Avatar1.png" alt="Avatar" style="width:90px">
+        <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+        <p>John Doe saved us from a web disaster.</p>
+      </div>
+    </div>
+
+    <!--<h2>Responsive Testimonials</h2>
+    <p>Resize the browser window to see the effect.</p>
+
+    <div class="container">
+        <img src="assets/img/Avatar1.png" alt="Avatar" style="width:90px">
+        <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+        <p>John Doe saved us from a web disaster.</p>
+    </div>
+
+    <div class="container">
+        <img src="assets/img/Avatar3png.jpg" alt="Avatar" style="width:90px">
+        <p><span>Rebecca Flex.</span> CEO at Company.</p>
+        <p>No one is better than John Doe.</p>
+    </div>-->
+
+    <!--Footer-->
+
+    <footer class="ct-footer">
+        <div class="container">
+            <form name="contentForm" enctype="multipart/form-data" method="post" action="">
+                <div class="ct-footer-pre text-center-lg">
+                    <div class="inner">
+                        <span>Join WebCorpCo to receive updates, news & events!</span>
+                    </div>
+                    <!--<div class="inner">
+            <div class="form-group">
+              <input name="formfields[nl_email]" id="nl_email" class="validate[required]"
+                placeholder="Enter your email address" type="text" value=""> <label for="nl_email"
+                class="sr-only">Email Address</label> <button type="submit" class="btn btn-motive">Join</button>
+            </div>
+          </div>-->
+                </div>
+            </form>
+
+            <ul class="ct-footer-list text-center-sm">
+                <div class="column">
+                    <h1>company</h1>
+                    <img src="assets/img/About.png" alt="Snow" style="width:250px" height="250px">
+                </div>
+                <li>
+                    <h2 class="ct-footer-list-header">Menu</h2>
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Services</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                        <li>
+                            <a href="">login</a>
+                        </li>
+                        <li>
+                            <a href="">Registration</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+
+                    <h2 class="ct-footer-list-header">Services</h2>
+                    <ul>
+                        <li>
+                            <a href="">Design</a>
+                        </li>
+                        <li>
+                            <a href="">Marketing</a>
+                        </li>
+                        <li>
+                            <a href="">Sales</a>
+                        </li>
+                        <li>
+                            <a href="">Programming</a>
+                        </li>
+                        <li>
+                            <a href="">Support</a>
+                        </li>
+                    </ul>
+                </li>
+                <div class="column">
+                    <h1>Location</h1>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.1960500006953!2d76.60784781481513!3d12.302580391297246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7b872c8f92fd%3A0x91e5ce097c843348!2sTechBitz%20Software%20Solutions%20(OPC)%20Private%20Limited!5e0!3m2!1sen!2sin!4v1674192043431!5m2!1sen!2sin"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!--<li>
+
+          <h2 class="ct-footer-list-header">The Industry</h2>
+          <ul>
+            <li>
+              <a href="">Thought Leadership</a>
+            </li>
+            <li>
+              <a href="">Webinars</a>
+            </li>
+            <li>
+              <a href="">Events</a>
+            </li>
+            <li>
+              <a href="">Sponsorships</a>
+            </li>
+            <li>
+              <a href="">Advisors</a>
+            </li>
+            <li>
+              <a href="">Training Program</a>
+            </li>
+            <li>
+              <a href="">Activities & Campaigns</a>
+            </li>
+          </ul>-->
+                <!--<h2 class="ct-footer-list-header">The Industry</h2>
+          <ul>
+            <li>
+              <a href="">Thought Leadership</a>
+            </li>
+            <li>
+              <a href="">Webinars</a>
+            </li>
+            <li>
+              <a href="">Events</a>
+            </li>
+            <li>
+              <a href="">Sponsorships</a>
+            </li>
+            <li>
+              <a href="">Advisors</a>
+            </li>
+            <li>
+              <a href="">Training Program</a>
+            </li>
+            <li>
+              <a href="">Activities & Campaigns</a>
+            </li>
+          </ul>-->
+                <!--</li>-->
+                <!--<li>
+          <h2 class="ct-footer-list-header">Public Relations</h2>
+          <ul>
+            <li>
+              <a href="">WebCorpCo Blog</a>
+            </li>
+            <li>
+              <a href="">Hackathons</a>
+            </li>
+            <li>
+              <a href="">Videos</a>
+            </li>
+            <li>
+              <a href="">News Releases</a>
+            </li>
+            <li>
+              <a href="">Newsletters</a>
+            </li>
+          </ul>
+        </li>-->
+                <!--<li>
+          <h2 class="ct-footer-list-header">About</h2>
+          <ul>
+            <li>
+              <a href="">FAQ</a>
+            </li>
+            <li>
+              <a href="">Our Board</a>
+            </li>
+            <li>
+              <a href="">Our Staff</a>
+            </li>
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </li>
+      </ul>-->
+                <!--<div class="ct-footer-meta text-center-sm">
+          <div class="row">
+            <div class="col-sm-6 col-md-2">
+              <iframe=
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.1960500006953!2d76.60784781481513!3d12.302580391297246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7b872c8f92fd%3A0x91e5ce097c843348!2sTechBitz%20Software%20Solutions%20(OPC)%20Private%20Limited!5e0!3m2!1sen!2sin!4v1674137578509!5m2!1sen!2sin"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <img alt="logo" src="https://www.solodev.com/assets/footer/logo.png">
+            </div>-->
+                <!---<div class="col-sm-6 col-md-3">
+              <address>
+                <span>WebCorpCo<br></span>123 Easy Street<br>
+                Orlando, Florida, 32801<br>
+                <span>Phone: <a href="tel:5555555555">(555) 555-8899</a></span>
+              </address>
+            </div>
+            <div class="col-sm-6 col-md-2 ct-u-paddingTop10">
+              <a href="" target="_blank"><img alt="app store"
+                  src="https://www.solodev.com/assets/footer/appstore.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-2 ct-u-paddingTop10">
+              <a href="" target="_blank"><img alt="google play store"
+                  src="https://www.solodev.com/assets/footer/androidstore.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <ul class="ct-socials list-unstyled list-inline">
+                <li>
+                  <a href="" target="_blank"><img alt="facebook"
+                      src="https://www.solodev.com/assets/footer/facebook-white.png"></a>
+                </li>
+                <li>
+                  <a href="" target="_blank"><img alt="twitter"
+                      src="https://www.solodev.com/assets/footer/twitter-white.png"></a>
+                </li>
+                <li>
+                  <a href="" target="_blank"><img alt="youtube"
+                      src="https://www.solodev.com/assets/footer/youtube-white.png"></a>
+                </li>
+                <li>
+                  <a href="" target="_blank"><img alt="instagram"
+                      src="https://www.solodev.com/assets/footer/instagram-white.png"></a>
+                </li>
+                <li>
+                  <a href="" target="_blank"><img alt="pinterest"
+                      src="https://www.solodev.com/assets/footer/pinterest-white.png"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>-->
+                <!--<div class="ct-footer-post">
+      <div class="container">
+        <div class="inner-left">
+          <ul>
+            <li>
+              <a href="">FAQ</a>
+            </li>
+            <li>
+              <a href="">News</a>
+            </li>
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="inner-right">
+          <p>Copyright © 2016 WebCorpCo.&nbsp;<a href="">Privacy Policy</a></p>
+          <p><a class="ct-u-motive-color" href="" target="_blank">Web Design</a> by DigitalUs on <a href=""
+              target="_blank">Solodev CMS</a></p>
+        </div>
+      </div>
+    </div>-->
+    </footer>
+
+
+
+    <script src="assets\index.js"></script>
+</body>
+
+</html>
